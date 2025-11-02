@@ -80,13 +80,13 @@ export const router = createBrowserRouter(
             <Route index element={<AdminDashboard />} />
             <Route path="singleUser/:userId" element={<SingleUserDashboard />}>
               <Route index element={<UsersInfo />} />
-              <Route path="deposit" element={<AdminReceiverCoinCom />} />
               <Route path="history" element={<AdminUserHistory />} />
               <Route
                 path="mining-activated"
                 element={<AdminMiningActivated />}
               />
               <Route path="earn" element={<AdminEarnButton />} />
+              <Route path="deposit" element={<AdminReceiverCoinCom />} />
               <Route path="deposit-mining-fee" element={<EarnCoinForm />} />
             </Route>
           </Route>
