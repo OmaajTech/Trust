@@ -14,7 +14,10 @@ export const getAllCoins = createAsyncThunk(
   async (_, { getState }) => {
     try {
       // const response = await axios.get("/api/coins");
-      const response = await axios.get("http://localhost:5000/api/coins");
+      const response = await axios.get(
+        "https://backend-repo-delta.vercel.app/api/coins"
+      );
+      // const response = await axios.get("http://localhost:5000/api/coins");
 
       const transaction = getState().transaction.transactions;
 
