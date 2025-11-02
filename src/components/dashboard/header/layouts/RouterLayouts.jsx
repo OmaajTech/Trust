@@ -27,7 +27,6 @@ import SellCoinCom from "../../body/sellCom/SellCoinCom";
 import Exchange from "../../../../pages/exchange/Exchange";
 import Transfer from "../../../../pages/transfer/Transfer";
 import HistoryCoinCom from "../../body/historyCom/HistoryCoinCom";
-import AdminReceiverCoinCom from "../../body/adminReceiverCom/adminReceiverCoinCom";
 import EarnCoin from "../../body/earnCom/earnCoin/EarnCoin";
 import MinerConversion from "../../body/earnCom/earnCoin/MinerConversion";
 import EarnCoinForm from "../../body/earnCom/earnCoin/EarnCoinForm";
@@ -43,12 +42,12 @@ import UsersInfo from "../../../auth/adminRole/singleUser/UsersInfo";
 import AdminMiningActivated from "../../../auth/adminRole/AdminMiningActivated";
 import Wallet from "../../../../pages/wallet/Wallet";
 import WalletInfo from "../../body/walletCom/walletInfo/WalletInfo";
-import RegisterPage2 from "../../../auth/registrationCom/registration/page2/RegisterPage2";
 import BackUpPhrase from "../../body/homeCom/BackUpPhrase";
 import RedirectBackUp from "../../../auth/redirection/RedirectBackUp";
 import VerifyKeyPhrase from "../../../auth/registrationCom/VerifyKeyPhrase";
 import RedirectVerify from "../../../auth/redirection/RedirectVerify";
 import NotFound from "../../../../pages/notFound/NotFound";
+import AdminReceiverCoinCom from "../../body/adminReceiverCom/adminReceiverCoinCom";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
