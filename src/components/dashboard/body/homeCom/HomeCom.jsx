@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Header from "../../header/header";
+// import Header from "../../header/header";
 import HomeBody from "./homeBody/HomeBody";
 import HomeHeader from "./homeHeader/HomeHeader";
 import HomeSemiHeader from "./homeSemiHeader/HomeSemiHeader";
@@ -39,7 +39,7 @@ const HomeCom = () => {
             <HomeSemiHeader />
             <HomeBody />
           </div>
-          <Header />
+          {/* <Header /> */}
         </div>
       ) : (
         <SuccessfulRegistered />
