@@ -28,7 +28,7 @@ const EarnCoin = () => {
   const { daysLocked } = useDaysWithdrawal(price);
   const { formatePrice } = useFormatePrice();
 
-  const roi = price * 2;
+  const roi = price * 0.78;
   const total = price + roi;
   const remainingBalance = 500 - price;
   const { coinAmount: available } = useConvertAmountToCoin(price, priceCoin);
